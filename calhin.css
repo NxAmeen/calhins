@@ -73,10 +73,12 @@ body {
     flex-grow: 1;
     flex-basis: 0;
     max-width: 500px;          /* 275px */
+            height: 75%;
     border-radius: 8px;
   }
 
   .price-columns.popular{
+            height: 80%;
     position: relative;
     background: var(--accent-color);
     box-shadow: 0 7px 30px rgba(52, 13, 135, 0.4);
@@ -106,18 +108,18 @@ body {
   }
 
   .price{
-    font-size: 3.5rem;
+            font-size: 5.5rem;
     display: flex;
   }
 
   .rupees-sign{
-    font-size: 1.5rem;
+            font-size: 3rem;
     margin-top: 0.5rem;
     margin-right: 0.25rem;
   }
 
   .price-month{
-    font-size: 0.75rem;
+            font-size: 1.75rem;
     align-self: flex-end;
     margin-bottom: 1.1rem;
     text-transform: uppercase;
@@ -126,16 +128,18 @@ body {
   .plan-name{
     text-transform: uppercase;
     font-size: 0.9rem;
-    margin-top: 1rem;
+            margin-top: 4rem;
     margin-bottom: 0;
+            font-size: 2rem;
+            margin-left: 7rem;
   }
 
   .divider{
     height: 1px;
     width: 100%;
     background-color: rgba(0, 0, 0, .2);
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+            margin-top: 1rem;
+    margin-bottom: 5rem;
   }
 
   .price-columns.popular .divider{
@@ -145,7 +149,8 @@ body {
   .feature{
     display: flex;
     align-items: center;
-    margin: .5rem;
+    margin: 3.5rem;
+    font-size: 1.5rem;
   }
 
   .feature img{
@@ -189,6 +194,7 @@ body {
   .price-columns.popular .cta{
     background-color: white;
     color: var(--accent-color);
+            margin-top: 6rem;
   }
 
   .cta:hover, .cta:focus {
