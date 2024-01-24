@@ -482,35 +482,42 @@ section {
 .home-img img {
     position: absolute;
     right: 40px;
+    bottom: 0;
     pointer-events: none;
     max-width: 480px;
     max-height: 100vh;
-    animation: moveImage 3.5s infinite linear;
+    animation: swingImage 10s infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
 
 
-@keyframes moveImage {
+@keyframes swingImage {
     0% {
-        bottom: 0;
-        right: 40px;
+        transform-origin: center top;
+        transform: translateX(-1%) rotate(0deg);
     }
-    25% {
-        bottom: 50px;
-        right: 80px;
+    20% {
+        transform-origin: center top;
+        transform: translateX(-1%) rotate(10deg);
     }
-    50% {
-        bottom: 100px;
-        right: 120px;
+    40% {
+        transform-origin: center top;
+        transform: translateX(-1%) rotate(-6deg);
     }
-    75% {
-        bottom: 50px;
-        right: 80px;
+    60% {
+        transform-origin: center top;
+        transform: translateX(-1%) rotate(4deg);
+    }
+    80% {
+        transform-origin: center top;
+        transform: translateX(-1%) rotate(-2deg);
     }
     100% {
-        bottom: 0;
-        right: 40px;
+        transform-origin: center top;
+        transform: translateX(-1%) rotate(0deg);
     }
 }
+
+
 
 span {
     color: var(--main-color);
