@@ -1140,9 +1140,6 @@ span {
         grid-template-columns: 1fr;
     }
 
-            .home-content{
-                margin-top: 50px;
-            }
 }
 
 @media (max-width: 450px) {
@@ -1187,9 +1184,6 @@ span {
         margin-top: 2rem;
     }
 
-            .home-content{
-                margin-top: 50px;
-            }
 }
 
 @media (max-width: 365px) {
@@ -1197,9 +1191,6 @@ span {
         width: 90vw;
     }
 
-            .home-content{
-                margin-top: 50px;
-            }
 }
 
 @media (max-width: 315px) {
