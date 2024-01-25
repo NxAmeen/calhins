@@ -1141,7 +1141,7 @@ span {
     }
 
             .home-content{
-                margin-top: 5px;
+                margin-top: 50px;
             }
 }
 
@@ -1159,7 +1159,7 @@ span {
     }
 
     .home .profession-box .profession:nth-child(2) {
-        transform: rotate(0deg) translate(5px, -325px);
+        transform: rotate(0deg) translate(50px, -325px);
     }
 
     .home .profession-box .profession:nth-child(3) {
@@ -1188,7 +1188,7 @@ span {
     }
 
             .home-content{
-                margin-top: 5px;
+                margin-top: 50px;
             }
 }
 
@@ -1198,7 +1198,7 @@ span {
     }
 
             .home-content{
-                margin-top: 5px;
+                margin-top: 50px;
             }
 }
 
