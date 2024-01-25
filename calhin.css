@@ -1139,6 +1139,10 @@ span {
     .portfolio .portfolio-container {
         grid-template-columns: 1fr;
     }
+
+            .home-content{
+                margin-top: 20px;
+            }
 }
 
 @media (max-width: 450px) {
@@ -1184,7 +1188,7 @@ span {
     }
 
             .home-content{
-                margin-top: 50px;
+                margin-top: 20px;
             }
 }
 
@@ -1192,6 +1196,10 @@ span {
     .about-img img {
         width: 90vw;
     }
+
+            .home-content{
+                margin-top: 20px;
+            }
 }
 
 @media (max-width: 315px) {
