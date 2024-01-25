@@ -1182,6 +1182,10 @@ span {
         text-align: center;
         margin-top: 2rem;
     }
+
+            .home-content{
+                margin-top: 500px;
+            }
 }
 
 @media (max-width: 365px) {
