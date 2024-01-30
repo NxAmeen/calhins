@@ -19,7 +19,7 @@
     --shadow-color: rgba(0, 0, 0, .2);
 
 
-
+    --adil-color: #186061;
     --orange-color: #d75e27;
     --dark-color: #13192b;
     --light-color: #6dbdbf;
@@ -90,7 +90,7 @@ body {
 .navbar a {
     position: relative;
     font-size: 1.7rem;
-    color: var(--white-color);
+            color: var(--text-color);
     font-weight: 500;
     margin-right: 3.5rem;
 }
@@ -110,7 +110,7 @@ body {
     bottom: -6px;
     width: 100%;
     height: .2rem;
-    background: var(--white-color);
+            background: var(--text-color);
 }
 
 .header.sticky .navbar a::before {
@@ -141,9 +141,54 @@ section {
             margin-top: 5px;
 }
 
+
+
+
+
+
+/* addon from meeting */
+section.home{
+    /* Set the background image */
+    background-image: url('images/calhin\ c-01\ PRINT.jpg');
+    
+    /* Set background size to cover the entire viewport */
+    background-size: cover;
+    
+    /* Set background to fixed to prevent scrolling with the page */
+    background-attachment: fixed;
+    
+    /* Add any additional styling you need */
+    /* For example, you can set the background color as a fallback */
+    background-color: #f0f0f0;
+
+  }
+  
+  /* Add other styles for your content as needed */
+  .content {
+    /* Example content styles */
+    padding: 20px;
+    text-align: center;
+  }
+
+
+
+
+
+
+
+
+
 .home {
     display: flex;
     align-items: center;
+}
+
+
+
+/* addon from meeting */
+.home p,h3.h3{
+    /* background: white; */
+    color: #d4d4d4;
 }
 
 .home .home-content {
@@ -173,13 +218,13 @@ section {
         }
 
         .content h1:nth-child(1) {
-                    -webkit-text-stroke: 2px var(--design-color);
+                    -webkit-text-stroke: 2px var(--light-color);
             color: transparent;
         }
 
         .content h1:nth-child(2) {
-                    color: var(--design-color);
-                    -webkit-text-stroke: 2px var(--design-color);
+                    color: var(--light-color);
+                    -webkit-text-stroke: 2px var(--light-color);
             animation: animate 4s ease-in-out infinite;
         }
 
@@ -333,9 +378,9 @@ section {
     right: 0;
     width: 0;
     height: 0;
-            border-top: 50vh solid var(--design-color);
-            border-right: 384px solid var(--design-color);
-            border-bottom: 50vh solid var(--design-color);
+            border-top: 50vh solid #d4d4d4;
+            border-right: 384px solid #d4d4d4;
+            border-bottom: 50vh solid #d4d4d4;
     border-left: 384px solid transparent;
 }
 
@@ -623,7 +668,7 @@ span {
   }
 
  .price-columns.popular .cta:is(:hover,:focus-visible) {
-            background-color: var(--design-color);
+            background-color: var(--dark-color);
     color: white;
   }
 
