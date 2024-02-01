@@ -136,7 +136,7 @@ body {
 }
 
 section {
-    min-height: 100vh;
+    min-height: 98.8vh;
     padding: 10rem 7% 2rem;
             margin-top: 5px;
 }
@@ -1145,6 +1145,8 @@ span {
         right: 0;
         transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
         border-width: 23.9rem;
+                margin-top: 75px;
+                
     }
 
     .about {
@@ -1178,6 +1180,23 @@ span {
                 margin-left: 75px;
 
             }
+            
+
+
+
+            /* Media query for responsive design-addon for bg image */
+                section.home {
+                    /* Adjust background properties for mobile devices */
+                    /* background-attachment: scroll; Allow scrolling on mobile */
+                    background-position: center; /* Center the background image */
+                }
+
+
+                /* added to remove excess bottom of photo */
+                section{
+                    min-height: 90vh;
+                }
+
 }
 
 @media (max-width: 580px) {
