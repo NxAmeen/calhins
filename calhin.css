@@ -970,22 +970,6 @@ span {
     .home-img img {
         max-width: 400px;
     }
-
-
-
-
-            /* Media query for responsive design-addon for bg image */
-            section.home {
-                /* Adjust background properties for mobile devices */
-                /* background-attachment: scroll; Allow scrolling on mobile */
-                background-position: center; /* Center the background image */
-            }
-
-
-            /* added to remove excess bottom of photo */
-            section{
-                min-height: 90vh;
-            }
 }
 
 @media (max-width: 991px) {
@@ -1018,23 +1002,6 @@ span {
     .footer {
         padding: 2rem 3%;
     }
-
-
-
-
-
-            /* Media query for responsive design-addon for bg image */
-            section.home {
-                /* Adjust background properties for mobile devices */
-                /* background-attachment: scroll; Allow scrolling on mobile */
-                background-position: center; /* Center the background image */
-            }
-
-
-            /* added to remove excess bottom of photo */
-            section{
-                min-height: 90vh;
-            }
 }
 
 @media (max-width: 896px) {
@@ -1049,65 +1016,18 @@ span {
     .home .profession-container .overlay {
         right: -43%;
     }
-
-
-
-            /* Media query for responsive design-addon for bg image */
-            section.home {
-                /* Adjust background properties for mobile devices */
-                /* background-attachment: scroll; Allow scrolling on mobile */
-                background-position: center; /* Center the background image */
-            }
-
-
-            /* added to remove excess bottom of photo */
-            section{
-                min-height: 90vh;
-            }
 }
 
 @media (max-width: 879px) {
     .portfolio .portfolio-container {
         grid-template-columns: repeat(2, 1fr);
     }
-
-
-
-
-            /* Media query for responsive design-addon for bg image */
-            section.home {
-                /* Adjust background properties for mobile devices */
-                /* background-attachment: scroll; Allow scrolling on mobile */
-                background-position: center; /* Center the background image */
-            }
-
-
-            /* added to remove excess bottom of photo */
-            section{
-                min-height: 90vh;
-            }
-        }
+}
 
 @media (max-width: 780px) {
     .navbar a:nth-child(2) {
         color: var(--white-color);
     }
-
-
-
-
-            /* Media query for responsive design-addon for bg image */
-            section.home {
-                /* Adjust background properties for mobile devices */
-                /* background-attachment: scroll; Allow scrolling on mobile */
-                background-position: center; /* Center the background image */
-            }
-
-
-            /* added to remove excess bottom of photo */
-            section{
-                min-height: 90vh;
-            }
 }
 
 @media (max-width: 768px) {
@@ -1286,23 +1206,6 @@ span {
 
 }
 
-
-@media (max-width :670px){
-
-    /* Media query for responsive design-addon for bg image */
-    section.home {
-        /* Adjust background properties for mobile devices */
-        /* background-attachment: scroll; Allow scrolling on mobile */
-        background-position: center; /* Center the background image */
-    }
-
-
-    /* added to remove excess bottom of photo */
-    section{
-        min-height: 90vh;
-    }
-}
-
 @media (max-width: 580px) {
     .portfolio .portfolio-container {
         grid-template-columns: 1fr;
@@ -1351,22 +1254,6 @@ span {
         text-align: center;
         margin-top: 2rem;
     }
-
-
-
-
-            /* Media query for responsive design-addon for bg image */
-            section.home {
-                /* Adjust background properties for mobile devices */
-                /* background-attachment: scroll; Allow scrolling on mobile */
-                background-position: center; /* Center the background image */
-            }
-
-
-            /* added to remove excess bottom of photo */
-            section{
-                min-height: 90vh;
-            }
 
 }
 
