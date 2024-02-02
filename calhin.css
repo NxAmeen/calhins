@@ -42,6 +42,13 @@
     --bg-color: #0b061f;
     --text-color: #fdfdfd;
     --shadow-color: rgba(0, 0, 0, .7);
+    @media (prefers-color-scheme: dark) {
+        .home .profession-container .overlay {
+            border-top-color: #0b061f; /* Black color for dark mode */
+            border-right-color: #0b061f;
+            border-bottom-color: #0b061f;
+        }
+    }
 }
 
 html {
@@ -136,9 +143,9 @@ body {
 }
 
 section {
-    min-height: 98.8vh;
+    min-height: 100vh;
     padding: 10rem 7% 2rem;
-            margin-top: 5px;
+            /* margin-top: 5px; */
 }
 
 
@@ -159,15 +166,15 @@ section.home{
     
     /* Add any additional styling you need */
     /* For example, you can set the background color as a fallback */
-    background-color: #f0f0f0;
+    /* background-color: #f0f0f0; */
 
   }
   
   /* Add other styles for your content as needed */
   .content {
     /* Example content styles */
-    padding: 20px;
-    text-align: center;
+    /* padding: 20px;
+    text-align: center; */
   }
 
 
