@@ -69,10 +69,10 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 3rem 7%;
+    /* padding: 3rem 7%; */
     background: transparent;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     z-index: 100;
     transition: .5s;
 }
@@ -956,7 +956,7 @@ span {
     }
 
     section {
-        padding: 10rem 3% 2rem;
+        /* padding: 10rem 3% 2rem; */
     }
 
     .home .profession-container .profession-box {
