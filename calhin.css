@@ -1329,6 +1329,9 @@ img {
         height: 100px; /* Adjust as needed */
         /* width: 100px; Adjust as needed */
     }
+    .home-content{
+        padding-top: 3rem;
+    }
     /* Add other CSS changes for these devices here */
 }
 
