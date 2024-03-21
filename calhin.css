@@ -1327,7 +1327,7 @@ img {
         /* Adjust the properties as needed for iPhone 13 Pro Max and likely iPhone 14 Pro Max */
         background: url('CLOGO-01-removebg-preview.png') no-repeat center center / cover;
         height: 100px; /* Adjust as needed */
-        width: 100px; /* Adjust as needed */
+        /* width: 100px; Adjust as needed */
     }
     /* Add other CSS changes for these devices here */
 }
@@ -1337,8 +1337,8 @@ img {
     .logo {
         /* Adjust the properties as needed for iPhone 13 Mini and likely iPhone 14 Mini */
         background: url('CLOGO-01-removebg-preview.png') no-repeat center center / cover;
-        height: 80px; /* Adjust as needed */
-        width: 80px; /* Adjust as needed */
+        /* height: 80px; /* Adjust as needed */
+        /* width: 80px; Adjust as needed  */
     }
     /* Add other CSS changes for these devices here */
 }
