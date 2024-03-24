@@ -156,7 +156,7 @@ section {
 /* addon from meeting */
 section.home{
     /* Set the background image */
-    background-image: url('images/calhin\ c-01\ PRINT.jpg');
+    /* background-image: url('images/calhin\ c-01\ PRINT.jpg'); */
     
     /* Set background size to cover the entire viewport */
     background-size: cover;
