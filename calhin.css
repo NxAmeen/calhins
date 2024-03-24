@@ -1239,7 +1239,7 @@ span {
     }
 
     .home .profession-container .overlay {
-        top: 80rem;
+        top: 800rem;  /* 80rem */
     }
 
     .contact form .input-box input {
