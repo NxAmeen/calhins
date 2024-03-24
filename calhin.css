@@ -1148,11 +1148,11 @@ span {
     .home .profession-container .overlay {
         position: fixed;
         top: 70rem;
-        left: 5000px;  /* 50% */
+        left: 50%;
         right: 0;
-        /* transform: rotate(90deg) translate(-50%, 50%) scaleY(3); */
+        transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
         border-width: 23.9rem;
-                /* margin-top: 75px; */
+                margin-top: 75px;
                 
     }
 
@@ -1239,7 +1239,7 @@ span {
     }
 
     .home .profession-container .overlay {
-        top: 800rem;  /* 80rem */
+        top: 80rem;
     }
 
     .contact form .input-box input {
