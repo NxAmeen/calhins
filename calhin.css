@@ -69,7 +69,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    /* padding: 3rem 7%; */
+    padding: 3rem 7%;
     background: transparent;
     display: flex;
     /* align-items: center; */
@@ -956,7 +956,7 @@ span {
     }
 
     section {
-        /* padding: 10rem 3% 2rem; */
+        padding: 10rem 3% 2rem;
     }
 
     .home .profession-container .profession-box {
@@ -1148,11 +1148,11 @@ span {
     .home .profession-container .overlay {
         position: fixed;
         top: 70rem;
-        left: 50%;
+        left: 5000px;  /* 50% */
         right: 0;
-        transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
+        /* transform: rotate(90deg) translate(-50%, 50%) scaleY(3); */
         border-width: 23.9rem;
-                margin-top: 75px;
+                /* margin-top: 75px; */
                 
     }
 
